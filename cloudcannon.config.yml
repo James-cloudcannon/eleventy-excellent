@@ -6,24 +6,29 @@ collections_config:
   pages:
     path: pages
     icon: wysiwyg
+    disable_url: false
+    description: my pages
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
   docs:
     path: docs
     icon: docs
+    disable_url: false
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
   posts:
     path: posts
     icon: event_available
+    disable_url: false
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
   data:
     path: _data
     icon: data_usage
+    disable_url: false
     disable_add: true
     disable_add_folder: true
     disable_file_actions: true
